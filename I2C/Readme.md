@@ -1,10 +1,10 @@
-**Revision 0**
+**Revision 0.1**
 
 # Proposal for external I2C connector
 [![](https://github.com/MrSVCD/PicoRX-accessories/blob/main/I2C/External%20I2C%20proposal-thumb.png)](https://github.com/MrSVCD/PicoRX-accessories/blob/main/I2C/External%20I2C%20proposal-2.png)
 
 This is my proposal for a external connector for I2C traffic for use with keypads and other control surfaces.
-## Mecanical
+## Mechanical
 The connector is a IDC 6 pin (2x3 pin) connector. Male on the peripherals and radio and Female on the cable. The layout is as shown above.
 
 ## Electrical
@@ -26,3 +26,5 @@ Here I would define what different addresses/peripherals do and how.
 ### Peripheral wish list
 * Keypad for typing frequencies.
 * Remote control with encoder, buttons and display and seen on car mounted ham radios.
+#### "Mouse"
+While PicoRX has no use for a mouse, The PS2 definition of the mouse protocol would be easy to adapt to our needs. In the [Wikipedia articel](https://en.wikipedia.org/w/index.php?title=Computer_mouse&oldid=1250755620#PS/2_interface_and_protocol) on the subject, the 3 byte data-gram would be easy to adapt for PicoRX use. Using the X axis for the rotary controller and the Y axis for the volume. Left Button and Right Button is self explanatory and Middle button as the rotary encoder switch. If Y axis is for volume then it should be a absolute value and not a relative value.
