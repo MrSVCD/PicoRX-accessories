@@ -61,8 +61,8 @@ difference(){
     translate([bredd-5,   5]) cylinder(h=30,r=1.4);
     translate([bredd-5,60-5]) cylinder(h=30,r=1.4);
 }
-
-translate([0,100])
+rotate([0,180,0]) translate([-50,175,-5.5]) screencover();
+translate([0,75])
 difference(){
     union(){
         //cube([100,100,5]);
@@ -129,5 +129,6 @@ module screencover(){
             sphere(4);
         }
         translate([-50,-50,-10]) cube([100,100,10]);
+        screencut();
     }
 }
