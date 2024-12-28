@@ -13,3 +13,8 @@ A 3D print model to make the tiny OLED screen look larger by using a credit card
 [https://github.com/MrSVCD/PicoRX-accessories/tree/main/PicoHolder](https://github.com/MrSVCD/PicoRX-accessories/tree/main/PicoHolder)
 
 A 3D print model for holding you Pico in place. With OpenSCAD source.
+
+### Small Contol Box by MrSVCD
+[https://github.com/MrSVCD/PicoRX-accessories/tree/main/PicoRX%20Control%20Box](https://github.com/MrSVCD/PicoRX-accessories/tree/main/PicoRX%20Control%20Box)
+
+A 3D print model of the control panel part of the PicoRX with a possibility for a headphone jack.
